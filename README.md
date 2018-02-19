@@ -28,16 +28,18 @@ AS A VISITOR, NOT LOGGED IN
 * As a visitor, I want to be able to view a demo or read about/see how the app works so that I can decide if I want to sign up for an account. (LANDING PAGE plus DEMO?)
 
 * As a visitor who has already created an account, I want to log in so that I can access my account.
-
-AS A LOGGED-IN USER
-* As a user, I want to set up my new account by describing some past successes so that I can reflect back on them later when I feel impostor syndrome setting in.
 ![UI Flow handwritten draft](https://github.com/ragusamj/fashion-node-capstone/blob/master/github-images/fashion-node-login.JPG)
+* If I do not have the account, I want to be able to register.
 ![UI Flow handwritten draft](https://github.com/ragusamj/fashion-node-capstone/blob/master/github-images/fashion-node-signup.JPG)
+AS A LOGGED-IN USER
 
-* As a user, I want to view my past successes once I have entered them into the system so that I can combat impostor syndrome feelings.
-* As a user, I want to see graphic/visual representations of my past successes and the skills and traits I used to achieve them so I can know I am a capable person.
+* As a user, I would lie to see a table that shows the items I have in line to purchase. I would like to see the categories such as: item, brand, store, sale starts, sale ends, link, etc.
 ![UI Flow handwritten draft](https://github.com/ragusamj/fashion-node-capstone/blob/master/github-images/fashion-node-tracksales.JPG)
+
+* As a user, I want to set up my new account by organizing the items that I would like to purchase and to indicate the when the sale for that particular item starts and ends. I would like to add the expiration date to my google calendar to alert me. I would like to have an option to search my favorite stores near me.
+
 ![UI Flow handwritten draft](https://github.com/ragusamj/fashion-node-capstone/blob/master/github-images/fashion-node-additem.JPG)
+
 
 
 ## Working Prototype
@@ -45,11 +47,10 @@ Find a working prototype with Node at https://fashion-node-capstone.herokuapp.co
 
 
 ## Functionality
-* When they first set up their account, users are guided through a setup process in which they will be asked to describe an achievement or success they have accomplished and to specify which skills and character traits were required in order to achieve it (for example, negotiation, interpersonal skills, planning, forethought, JavaScript, Python, classical guitar, persistence, juggling). The app will provide users with a default list of general skills and traits from which users can select all relevant ones, and (PLANNED FUTURE ADDITIONAL FEATURE) users should also be able to add and specify their own skills or traits to add to the list (for example, job-specific skills like jQuery or project management).
-* Once they have initially set up an account, view their past successes in one or more graphic representations (timelines, charts, graphs, visualizations, word clouds, etc.).
+
 
 ## Technical
-Not Just Luck was built as two separate parts.
+
 
 <h3>Front End</h3>
 <ul>
@@ -57,7 +58,7 @@ Not Just Luck was built as two separate parts.
 <li>CSS3</li>
 <li>JavaScript</li>
 <li>jQuery</li>
-<li>React</li>
+<!--<li>React</li>-->
 </ul>
 <h3>Back End</h3>
 <ul>
@@ -66,6 +67,7 @@ Not Just Luck was built as two separate parts.
 <li>MongoDB</li>
 <li>Mongoose</li>
 <li>mLab database</li>
+<li>Heroku</li>
 <li><a href="https://mochajs.org/">Mocha</a> and <a href="http://chaijs.com/">Chai</a> for testing</li>
 </ul>
 <h3>Responsive</h3>
