@@ -1,7 +1,7 @@
 # fashion-node-capstone
-# Not Just Luck: Banish impostor syndrome for good!
+# My Fashion Journal: Track your sales!
 
-Not Just Luck is an interactive full-stack web app that helps users overcome impostor syndrome by guiding them to see the history of their own successes as well as the skills and traits that made those successes possible.
+Track my sales! is an interactive full-stack web app that helps users track sales in beauty and fashion world. The app will help them save the promo codes, as well as locate the nearest store, or save the URL for online sales. This gives a user the opportunity to track sales of items they are inetrested in all in one place, instead of going to each store's website and putting items in shopping carts, and miss the sale because life gets in the way. The app has the option for the users to add the sale dates to their google calander for alerting.
 
 ## Screenshots
 ![Landing page screen shot](https://github.com/Marjona6/not-just-luck-thinkful-full-stack-capstone/blob/master/public/img/njl01.png)
@@ -11,6 +11,7 @@ Not Just Luck is an interactive full-stack web app that helps users overcome imp
 ![Skills word cloud screen shot](https://github.com/Marjona6/not-just-luck-thinkful-full-stack-capstone/blob/master/public/img/njl05.png)
 
 ## Use Case
+Track my sales is an app that helps user track various items as they go on sale.
 Not Just Luck is for anyone who struggles with impostor syndrome and would like a centralized place to record and reflect upon their accomplishments and what it took to achieve them. Not Just Luck is like a good friend who reminds you of your strengths when you forget.
 
 ## Initial UX
