@@ -21,9 +21,9 @@ User Stories
 AS A VISITOR, NOT LOGGED IN
 
 * As an initial visitor to the page, I want to land on the web page and see what the page is about so I can understand what the app is and does and decide whether or not to create an account to be able to use the app.
-* As a visitor, I want to create a new account so that I can use the app.
+* As a visitor, I want to create a new account so that I can use the app, or to be able to log in if I am already registered.
 (LANDING PAGE--wireframe will have title, logo, a few details about logging in and what the app is about)
-![UI Flow handwritten draft](https://github.com/Marjona6/not-just-luck-thinkful-full-stack-capstone/blob/master/public/img/wf00.jpg)
+![UI Flow handwritten draft](https://github.com/ragusamj/fashion-node-capstone/blob/master/github-images/fashion-node-landing.JPG)
 
 * As a visitor, I want to be able to view a demo or read about/see how the app works so that I can decide if I want to sign up for an account. (LANDING PAGE plus DEMO?)
 
@@ -31,13 +31,14 @@ AS A VISITOR, NOT LOGGED IN
 
 AS A LOGGED-IN USER
 * As a user, I want to set up my new account by describing some past successes so that I can reflect back on them later when I feel impostor syndrome setting in.
-![UI Flow handwritten draft](https://github.com/Marjona6/not-just-luck-thinkful-full-stack-capstone/blob/master/public/img/wf04.jpg)
+![UI Flow handwritten draft](https://github.com/ragusamj/fashion-node-capstone/blob/master/github-images/fashion-node-login.JPG)
+![UI Flow handwritten draft](https://github.com/ragusamj/fashion-node-capstone/blob/master/github-images/fashion-node-signup.JPG)
 
 * As a user, I want to view my past successes once I have entered them into the system so that I can combat impostor syndrome feelings.
 * As a user, I want to see graphic/visual representations of my past successes and the skills and traits I used to achieve them so I can know I am a capable person.
-![UI Flow handwritten draft](https://github.com/Marjona6/not-just-luck-thinkful-full-stack-capstone/blob/master/public/img/wf01.jpg)
-![UI Flow handwritten draft](https://github.com/Marjona6/not-just-luck-thinkful-full-stack-capstone/blob/master/public/img/wf02.jpg)
-![UI Flow handwritten draft](https://github.com/Marjona6/not-just-luck-thinkful-full-stack-capstone/blob/master/public/img/wf03.jpg)
+![UI Flow handwritten draft](https://github.com/ragusamj/fashion-node-capstone/blob/master/github-images/fashion-node-tracksales.JPG)
+![UI Flow handwritten draft](https://github.com/ragusamj/fashion-node-capstone/blob/master/github-images/fashion-node-additem.JPG)
+
 
 ## Working Prototype
 Find a working prototype with Node at https://fashion-node-capstone.herokuapp.com/ .
