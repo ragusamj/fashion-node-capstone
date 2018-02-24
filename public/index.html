@@ -5,22 +5,151 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header>
+        <h1>My Fashion Journal</h1>
         <nav>
             <ul>
+                <!--
                 <li></li>
                 <li></li>
                 <li></li>
+-->
             </ul>
         </nav>
     </header>
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section id="landing-page">
+
+
+            <div id="title-box">
+                <p>Track your sales!</p>
+            </div>
+
+            <section class="login-section">
+                <button type="submit" id="login-button">Log In</button>
+                <button type="submit" id="register-button">Register</button></section>
+
+            <section class="row detail-section">
+                <div class="col-4">
+                    <!--                    <i class="fa fa-shoes"></i>-->
+
+                    <p>Track your sales!</p>
+                </div>
+                <div class="col-4">
+                    <!--                    <i class="fa fa-sun-o"></i>-->
+
+                    <p>Have all items in one place!</p>
+                </div>
+                <div class="col-4">
+                    <!--                    <i class="fa fa-pencil"></i>-->
+                    <p>Store the promo code!</p>
+                </div>
+            </section>
+
+            <!--
+<div class="fave-items circle">
+    <p>Have all items in one place</p>
+</div>
+<div class="track-sales circle">
+    <p>Track your sales</p>
+</div>
+-->
+
+        </section>
+        <section id="login page">
+            <form>
+                <p>Username</p>
+                <input type="text" required>
+                <p>Password</p>
+                <input type="password" required>
+                <button type="submit" id="sign-in">Log In</button>
+            </form>
+
+
+        </section>
+        <section id="signup page">
+            <form>
+                <p>First Name</p>
+                <input type="text" name="first-name" required>
+                <p>Last Name</p>
+                <input type="text" name="last-name" required>
+                <p>Username</p>
+                <input type="password" name="password" required>
+                <p>Confirm Password</p>
+                <input type="password" name="password" required>
+
+                <button type="submit" id="sign-in">Sign Up</button>
+            </form>
+
+        </section>
+
+        <section id="my-dashboard">
+
+            <h2>My Items</h2>
+            <div class="rTable">
+                <div class="rTableRow">
+                    <div class="rTableHead"><strong>Item</strong></div>
+                    <div class="rTableHead"><strong>Brand/Store</strong></div>
+                    <div class="rTableHead"><strong>Sale Starts</strong></div>
+                    <div class="rTableHead"><strong>Sale Ends</strong></div>
+                    <div class="rTableHead"><strong>Link</strong></div>
+                    <div class="rTableHead"><span style="font-weight: bold;">Comment</span></div>
+                    <div class="rTableHead">&nbsp;</div>
+                </div>
+                <div class="rTableRow">
+                    <div class="rTableCell">Dress</div>
+                    <div class="rTableCell">Macy's</div>
+                    <div class="rTableCell">1/2/18</div>
+                    <div class="rTableCell">2/12/18</div>
+                    <div class="rTableCell"><a href="#">macys.com</a></div>
+                    <div class="rTableCell">40% OFF </div>
+                    <div class="rTableCell"><input id="checkBox" type="checkbox"></div>
+                </div>
+
+                <div class="rTableRow">
+                    <div class="rTableCell">Dress</div>
+                    <div class="rTableCell">Macy's</div>
+                    <div class="rTableCell">1/2/18</div>
+                    <div class="rTableCell">2/12/18</div>
+                    <div class="rTableCell"><a href="#">macys.com</a></div>
+                    <div class="rTableCell">40% OFF </div>
+                    <div class="rTableCell"><input id="checkBox" type="checkbox"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section id="new-item add">
+            <div class="add-new item">
+                <button type="submit" id="add-item" class="homePageButtons">Add an item</button>
+                <button type="submit" id="update-item" class="homePageButtons">Update </button>
+                <button type="submit" id="delete-item" class="homePageButtons">Delete</button>
+
+                <!--               display was originaly: none-->
+                <form id="addItemSection" style="display" class="row">
+                    <h3>What's our next sale?</h3>
+                    <label for="addItemName">Item:</label>
+                    <input type="text" name="addItemName" id="addItemName" placeholder="Dress" required>
+                    <label for="addBrandName">Brand/Store:</label>
+                    <input type="text" name="addBrandName" id="addBrandName" placeholder="Macy's" required>
+                    <label for="addStartDate">Sale Starts:</label>
+                    <input type="text" name="addStartDate" id="addStartDate" placeholder="mm/dd/yyyy" required>
+                    <label for="addEndDate">Sale Ends:</label>
+                    <input type="text" name="addEndDate" id="addEndDate" placeholder="mm/dd/yyyy">
+                    <label for="addComments">Comments:</label>
+                    <input type="text" name="addComments" id="addComments" placeholder="promocode: VIP30">
+                    <button type="submit" id="addItemInfo" class="homePageButtons">Add it!</button>
+                    <button type="submit" id="cancel-add-plant" class="homePageButtons" style="display">Cancel</button>
+                </form>
+
+            </div>
+        </section>
+
     </main>
     <footer>
         <p></p>
