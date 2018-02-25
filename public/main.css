@@ -66,9 +66,11 @@ html {
     /* 2 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
+    /*    background: rgba(0, 0, 0, 0) url("images/rose-image.png") repeat center center;*/
 }
 
-/*
+
+
 article,
 aside,
 footer,
@@ -77,10 +79,9 @@ nav,
 section {
     display: block;
 }
-*/
 
 body {
-    background-color: #F9F9F9;
+    background-color: lightpink;
     color: #2C363F;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -89,7 +90,29 @@ body {
     padding: 2rem;
 }
 
+#landing-page {
+    background-image: url("images/landing-new.png");
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+}
+
+#landing-page p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.row p {
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 2rem;
+
+}
+
 button {
+
     background-color: plum;
     height: 1.6rem;
     width: 7rem;
@@ -98,14 +121,29 @@ button {
     text-align: center;
     border-radius: 5px;
 
+
 }
+
+form,
+.signup,
+.login {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.login,
+.signup {
+    padding: 1rem 3rem;
+}
+
 
 
 form {
 
     margin: 0 auto;
     text-align: left;
-
     display: block;
     box-sizing: border-box;
     width: 100%;
@@ -116,8 +154,8 @@ form {
 }
 
 
-#login-page {
-    background-image: url("../landing-image.jpg");
+#my-dashboard {
+    padding: 2rem
 }
 
 .row {
@@ -138,6 +176,9 @@ form {
 .row::after {
     clear: both;
 }
+
+
+/*not necessary*/
 
 .col-1,
 .col-2,
