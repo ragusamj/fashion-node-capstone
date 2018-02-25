@@ -91,17 +91,38 @@ body {
 }
 
 #landing-page {
-    background-image: url("images/landing-new.png");
+    /*    background-image: url("images/landing-new.png");*/
+    background-image: url("images/third-landing.png");
+    /*    background-image: url("images/online-shopping-main.jpg");*/
     text-align: center;
     padding-top: 10rem;
     padding-bottom: 10rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
-#landing-page p {
-    font-size: 1rem;
+h1 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+/*
+#landing-page h1 {
+
+    font-size: 2.5rem;
     padding-bottom: 1rem;
 }
+*/
+
+#landing-page p {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+
 
 .row p {
 
@@ -110,6 +131,23 @@ body {
     padding: 2rem 2rem;
 
 }
+
+.login-section {
+    padding-top: 1.5rem;
+
+}
+
+#login-button,
+#register-button {
+
+
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+
+}
+
+
 
 button {
 
@@ -122,6 +160,31 @@ button {
     border-radius: 5px;
 
 
+
+}
+
+.images {
+    width: 80%;
+}
+
+.col-4 {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.col-4 h2 {
+
+    padding: 2rem 1rem;
+
+}
+
+images p {
+
+    display: inline-block;
 }
 
 form,
@@ -138,7 +201,13 @@ form,
     padding: 1rem 3rem;
 }
 
-
+#log-in,
+#sign-in {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
 
 form {
 
@@ -146,7 +215,7 @@ form {
     text-align: left;
     display: block;
     box-sizing: border-box;
-    width: 100%;
+    width: 80%;
     padding: 10px;
     border-radius: 6px;
     border: 2px solid #fff;
@@ -157,6 +226,7 @@ form {
 #my-dashboard {
     padding: 2rem
 }
+
 
 .row {
 
@@ -196,7 +266,7 @@ form {
 .rTable {
     display: table;
     width: 100%;
-    /*    padding: 2rem;*/
+    padding: 2rem;
 }
 
 .rTableRow {
@@ -249,6 +319,7 @@ textarea {
     margin-top: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 /* -------------------------------------
 Header styles (Main Module)
