@@ -25,17 +25,17 @@
         <section id="landing-page">
 
 
-            <div id="title-box">
 
-                <p>Track your sales!</p>
-            </div>
 
             <section class="login-section">
                 <button type="submit" id="login-button">Log In</button>
                 <button type="submit" id="register-button">Register</button>
             </section>
 
+            <div id="title-box">
 
+                <p>Track your sales!</p>
+            </div>
 
             <!--
 <div class="fave-items circle">
@@ -102,7 +102,7 @@
 
         <section id="my-dashboard">
 
-            <h2>My Items</h2>
+            <h2>My Dashboard</h2>
             <div class="rTable">
                 <div class="rTableRow">
                     <div class="rTableHead"><strong>Item</strong></div>
@@ -120,7 +120,7 @@
                     <div class="rTableCell">2/12/18</div>
                     <div class="rTableCell"><a href="#">macys.com</a></div>
                     <div class="rTableCell">40% OFF </div>
-                    <div class="rTableCell"><input id="checkBox" type="checkbox"></div>
+                    <div class="rTableCell"><input class="checkBox" type="checkbox"></div>
                 </div>
 
                 <div class="rTableRow">
@@ -130,42 +130,53 @@
                     <div class="rTableCell">2/12/18</div>
                     <div class="rTableCell"><a href="#">macys.com</a></div>
                     <div class="rTableCell">40% OFF </div>
-                    <div class="rTableCell"><input id="checkBox" type="checkbox"></div>
+                    <div class="rTableCell"><input class="checkBox" type="checkbox"></div>
 
                 </div>
-
             </div>
 
-        </section>
-        <section id="new-item add">
             <div class="add-new item">
                 <button type="submit" id="add-item" class="homePageButtons">Add an item</button>
                 <button type="submit" id="update-item" class="homePageButtons">Update </button>
-                <button type="submit" id="delete-item" class="homePageButtons">Delete</button>
+                <button type="submit" id="delete-item" class="homePageButtons">Delete</button> </div>
 
-                <!--               display was originaly: none-->
-                <form id="addItemSection" style="display" class="row">
-                    <h3>What's our next sale?</h3>
-                    <label for="addItemName">Item:</label>
-                    <input type="text" name="addItemName" id="addItemName" placeholder="Dress" required>
-                    <label for="addBrandName">Brand/Store:</label>
-                    <input type="text" name="addBrandName" id="addBrandName" placeholder="Macy's" required>
-                    <label for="addStartDate">Sale Starts:</label>
-                    <input type="text" name="addStartDate" id="addStartDate" placeholder="mm/dd/yyyy" required>
-                    <label for="addEndDate">Sale Ends:</label>
-                    <input type="text" name="addEndDate" id="addEndDate" placeholder="mm/dd/yyyy">
-                    <label for="addComments">Comments:</label>
-                    <input type="text" name="addComments" id="addComments" placeholder="promocode: VIP30">
-                    <button type="submit" id="addItemInfo" class="homePageButtons">Add it!</button>
-                    <button type="submit" id="cancel-add-plant" class="homePageButtons" style="display">Cancel</button>
-                </form>
+
+
+
+
+
+
+        </section>
+        <section id="new-item add">
+
+
+            <!--               display was originaly: none-->
+            <form id="addItemSection" style="display" class="row">
+                <h3>What's our next sale?</h3>
+                <label for="addItemName">Item:</label>
+                <input type="text" name="addItemName" id="addItemName" placeholder="Dress" required>
+                <label for="addBrandName">Brand/Store:</label>
+                <input type="text" name="addBrandName" id="addBrandName" placeholder="Macy's" required>
+                <label for="addStartDate">Sale Starts:</label>
+                <input type="text" name="addStartDate" id="addStartDate" placeholder="mm/dd/yyyy" required>
+                <label for="addEndDate">Sale Ends:</label>
+                <input type="text" name="addEndDate" id="addEndDate" placeholder="mm/dd/yyyy">
+                <label for="addComments">Comments:</label>
+                <input type="text" name="addComments" id="addComments" placeholder="promocode: VIP30">
+
+            </form>
+            <div class="add-cancel">
+                <button type="submit" id="addItemInfo" class="homePageButtons">Add it!</button>
+                <button type="submit" id="cancel-add-item" class="homePageButtons" style="display">Cancel</button>
 
             </div>
+
+
         </section>
 
     </main>
     <footer>
-        <p></p>
+        <p>© Marija Jovanovic Favicon made by Freepik from www.flaticon.com</p>
     </footer>
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="client.js"></script>
