@@ -81,7 +81,7 @@ section {
 }
 
 body {
-    background-color: lightpink;
+    background-color: #FFD7DD;
     color: #2C363F;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -90,9 +90,69 @@ body {
     padding: 2rem;
 }
 
+
+
+
+
+ul,
+ol {
+    list-style-type: none;
+
+}
+
+.navigation {
+
+    height: 100px;
+    float: right;
+}
+
+nav ul {
+    /*    padding: .5rem 1rem;*/
+    list-style: none;
+    display: inline-block;
+
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding-left: .5rem;
+    padding-top: .5rem;
+
+}
+
+
+
+nav ul li a {
+
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    float: right;
+    padding-left: 2rem;
+    color: black;
+
+}
+
+
+
+
+.button-learn {
+
+    /*    background-color:*/
+    color: white;
+    border-radius: 10px;
+    padding: 15px 40px;
+    margin: 15px 10px;
+    /*    text-align: center;*/
+    float: right;
+
+}
+
 #landing-page {
     /*    background-image: url("images/landing-new.png");*/
-    background-image: url("images/third-landing.png");
+    background-image: url("images/fourth-landing.png");
     /*    background-image: url("images/online-shopping-main.jpg");*/
     text-align: center;
     padding-top: 10rem;
@@ -106,7 +166,7 @@ body {
 h1 {
     font-size: 2.5rem;
     padding-bottom: 1rem;
-    text-align: center;
+    /*    text-align: center;*/
 }
 
 /*#landing-page h2 {*/
@@ -179,8 +239,13 @@ button {
 
 .col-4 h2 {
 
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
 
+
+}
+
+.col-4 p {
+    padding-top: .5rem;
 }
 
 images p {
@@ -355,7 +420,11 @@ input .checkBox {}
     border-radius: 20px;
 }
 
-
+footer p {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
 
 /* -------------------------------------
 Header styles (Main Module)
@@ -369,8 +438,7 @@ Content styles (Main Module)
 
 /* -------------------------------------
 Footer styles (Main Module)
-(all the styles inside the < footer > tag)
-*/
+
 
 /* -------------------------------------
 place all the desktop styles above this line
@@ -396,6 +464,14 @@ place all the mobile tables styles below this line
     .text p {
 
         padding: 1rem 0rem;
+    }
+    .row {
+        max-width: 1600px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+        float: none;
+        width: 50%;
     }
 
 }
