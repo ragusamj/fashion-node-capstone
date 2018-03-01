@@ -77,6 +77,7 @@
             </div>
         </section>
         <section class="login page">
+            <!--
             <form>
                 <p>Username</p>
                 <input type="text" required>
@@ -84,20 +85,47 @@
                 <input type="password" required>
                 <button type="submit" id="log-in">Log In</button>
             </form>
+-->
+            <form id="loginForm">
+                <label for="GET-username">Username:</label>
+                <input type="text" name="GET-username" id="GET-username" placeholder="myname@gmail.com" required>
+                <label for="GET-password">Password:</label>
+                <input type="password" name="GET-password" id="GET-password" placeholder="password" required>
+                <button type="submit" id="sign-in">Sign In</button>
+                <p>Not a registered user? <a href="#" id="register-link">Sign up</a> now!</p>
+                <p class="demo">For demo: <br>username: demo <br>password: demo</p>
+            </form>
 
 
         </section>
         <section class="signup page">
-            <form>
-                <p>First Name</p>
-                <input type="text" name="first-name" required>
-                <p>Last Name</p>
-                <input type="text" name="last-name" required>
-                <p>Username</p>
-                <input type="password" name="password" required>
-                <p>Confirm Password</p>
-                <input type="password" name="password" required>
+            <!--
+<form>
+    <label>First Name</label>
+    <input type="text" name="first-name" required value="" class="signup-first">
+    <label>Last Name</label>
+    <input type="text" name="last-name" required value "" class="signup-last">
+    <label for=""></label>
+    <p>Username</p>
+    <input type="password" name="password" required>
+    <p>Confirm Password</p>
+    <input type="password" name="password" required>
 
+    <button type="submit" id="sign-in">Sign Up</button>
+</form>
+-->
+
+            <form id="registerForm">
+                <label for="firstName" required>First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                <label for="POST-username">Select username:</label>
+                <input type="text" name="POST-username" id="POST-username" placeholder="myname@gmail.com" required>
+                <label for="POST-password">Enter password:  <span id="errorTenChar"></span></label>
+                <input type="password" name="POST-password" id="POST-password" placeholder="password" required>
+                <label for="retype-password">Retype password:  <span id="errorMatchPass"></span></label>
+                <input type="password" name="retype-password" id="retype-password" placeholder="password" required>
                 <button type="submit" id="sign-in">Sign Up</button>
             </form>
 
